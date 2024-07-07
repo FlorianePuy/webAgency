@@ -6,10 +6,7 @@
     text-decoration: none;
     list-style-type: none;
 }
-.list-item:visited, .list-item {
-    color: gray;
-    font-size: 14px;
-}
+
 body {
     height: 3000px; /* temporaire pour avoir le scroll*/
     font-family: "Roboto", sans-serif;
@@ -18,12 +15,17 @@ body {
     font-size: medium;
 }
 main {
-    padding-top: 100px;
-}
-li {
-     padding: 10px;
+    padding-top: 100px; /* pour etre positionné sous la navbar */
 }
 
+/*barre de navigation*/
+li {
+    padding: 10px;
+}
+.list-item:visited, .list-item {
+    color: gray;
+    font-size: 14px;
+}
 .nav_bar {
     background-color: white;
     position: fixed;
@@ -81,7 +83,9 @@ strong {
 .button:visited {
     color: white;
 }
-
+.button:hover {
+    /*TO DO*/
+}
 .gauche {
     border-radius: 0 50px 50px 0;
 }
@@ -101,8 +105,33 @@ strong {
     top: 45vh;
     z-index: 4;
 }
-
 i {
     color: #fff;
     opacity: 1.0;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+/*section services*/
+.container {
+    display: flex;
+}
+.head-services {
+    flex-direction: column;
+}
+.line {
+    border-bottom: lightgray solid 1px;
+    width: 12vw;
+}
+.point {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #70ABCF;
+    border: white solid 3px;
+}
+.line .point {
+
 }
