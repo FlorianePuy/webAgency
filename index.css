@@ -164,4 +164,11 @@ h2 {
 }
 .side-paragraph {
     flex-direction: column;
+
+}
+.side-image {
+
+}
+.services-item {
+    flex-direction: row;
 }
