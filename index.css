@@ -167,7 +167,7 @@ h2 {
 .side-paragraph {
     flex-direction: column;
     width: 50%;
-    justify-content: center;
+    padding-top: 26px;
 }
 .side-image {
     width: 50%;
@@ -175,4 +175,8 @@ h2 {
 }
 .services-item {
     flex-direction: row;
+    margin: 0 25% 1% 0;
+}
+.services-item p, .services-item h3 {
+    padding-left: 15px;
 }
