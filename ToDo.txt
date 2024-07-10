@@ -1,0 +1,3 @@
+Le responsive
+Les animations
+Les balises meta og
